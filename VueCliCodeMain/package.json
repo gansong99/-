@@ -1,0 +1,83 @@
+{
+  "name": "gansong.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:Pager": "vue serve ./src/components/Pager/test.vue",
+    "test:Icon": "vue serve ./src/components/Icon/test.vue",
+    "test:Avatar": "vue serve ./src/components/Avatar/test.vue",
+    "test:Empty": "vue serve ./src/components/Empty/test.vue",
+    "test:ImageLoader": "vue serve ./src/components/ImageLoader/test.vue",
+    "test:Contact": "vue serve ./src/components/SiteAside/Contact/test.vue",
+    "test:Menu": "vue serve ./src/components/SiteAside/Menu/test.vue",
+    "test:SiteAside": "vue serve ./src/components/SiteAside/test.vue",
+    "test:Layout": "vue serve ./src/components/Layout/test.vue",
+    "test:RightList": "vue serve ./src/views/Blog/components/RightList-test.vue",
+    "test:MessageArea": "vue serve ./src/components/MessageArea/test.vue"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "Babel": "^0.0.1",
+    "core-js": "^3.10.1",
+    "history": "^5.0.0",
+    "ityped": "^1.0.3",
+    "lib-flexible": "^0.3.2",
+    "mock.js": "^0.2.0",
+    "mockjs": "^1.1.0",
+    "path": "^0.12.7",
+    "postcss-px2rem": "^0.3.0",
+    "querystring": "^0.2.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
+    "style-loader": "^2.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gansong99/gansong.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gansong99/gansong.github.io/issues"
+  },
+  "homepage": "https://github.com/gansong99/gansong.github.io#readme"
+}
